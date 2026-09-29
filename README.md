@@ -16,7 +16,7 @@ screenshots, architecture notes and live links.
 
 | Project | What it is | Stack |
 |---|---|---|
-| **Rhizome** | An independent verification layer for AI coding agents: runs their code in an offline sandbox, checks their claims against independent sources, signs every result with Ed25519 | Python · FastAPI · Docker |
+| **[Rhizoma](https://rhizomaindex.info)** | An independent auditing and scoring system for AI models and agents. Its first public measurement asks whether models say "I can't": 13 models, 1,366 answers, every raw answer and label published ([data and code](https://github.com/bedirhanveyselkutlu/rhizoma-index)) | Python · FastAPI · Docker |
 | **NowlSoft E-Commerce** | Eight microservices over six isolated databases, gRPC between services, RabbitMQ for events | Go · gRPC · RabbitMQ · Redis · PostgreSQL |
 | **DripStudio** | Lyric-video studio: programmatic video rendering on the server with queued long-running jobs | Next.js · Remotion · BullMQ · Redis |
 | **Üni Yemek** | University cafeteria menus in one place, collected through scrapers, a headless browser and a PDF parser | Node.js · Python |
